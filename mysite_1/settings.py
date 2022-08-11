@@ -18,6 +18,12 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
 ]
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'baobabkok@gmail.com'
+EMAIL_HOST_PASSWORD = 'urewjeqkzielvmcw'
+EMAIL_USE_TLS = True
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
