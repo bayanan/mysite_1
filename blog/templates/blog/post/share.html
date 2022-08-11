@@ -12,10 +12,4 @@
           <input type="submit" value="Send e-mail">
         </form>
     {% endif %}
-    {% for field in form %}
-        <div>
-          {{ field.errors }}
-          {{ field.label_tag }} {{ field }}
-        </div>
-    {% endfor %}
 {% endblock %}
